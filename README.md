@@ -25,7 +25,7 @@ See slendercards in action [here](https://www.youtube.com/watch?v=B_asB_UGEgM)
 1. Clone this repo and enter!
 
    ```bash
-   git clone https://github.com/jakewmiles/slendercards.git
+   git clone https://github.com/jakewmiles/slendercards-go-svelte.git
    cd slendercards
    ```
 

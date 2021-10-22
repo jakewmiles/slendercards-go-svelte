@@ -10,7 +10,7 @@
 ## Introduction
 slendercards is a web app built to help people learn foreign languages. Users can choose from multiple language pairs and automatically generate context-based flashcards based on personal search terms.
 
-slendercards was built using Svelte on the front-end and expressJS and Mongoose on the back-end. Slendercards makes use of web scraping through an unofficial Reverso API (built on Cheerio and Axios) to create and store the digital flashcards.
+slendercards-go-svelte is a front-end application, built using Svelte. To function correctly it must make calls to a server/database. Currently, the main server runs on Go (Golang), see [slendercards-go-server](https://github.com/jakewmiles/slendercards-go-server)
 
 See slendercards in action [here](https://www.youtube.com/watch?v=B_asB_UGEgM)
 
@@ -31,14 +31,7 @@ See slendercards in action [here](https://www.youtube.com/watch?v=B_asB_UGEgM)
 
 2. Run ````npm install```` to install all the required dependencies into your local repo. 
 
-3. Navigate to the back-end and get the server up and running!
-
-   ```bash
-   cd server
-   node index.js
-   ```
-
-4. In a new terminal, navigate back to the root folder and start running the front end.
+3. Start running the Svelte application.
     ```bash
     cd ..
     npm run dev
@@ -68,9 +61,3 @@ See slendercards in action [here](https://www.youtube.com/watch?v=B_asB_UGEgM)
 
 - Javascript
 - Svelte
-- Node.js
-- Axios
-- Cheerio
-- express.js
-- MongoDB
-- Mongoose
